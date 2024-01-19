@@ -32,7 +32,7 @@ export default function Exam() {
   return (
     <div className="container">
       <div className="row mt-4">
-        <div className="col-md-3">
+        <div className="col-3">
           <div className="card  p-2">
             <h3 className="text-center">Open</h3>
             {tasks
@@ -138,8 +138,7 @@ export default function Exam() {
             </button>
           </div>
         </div>
-
-        <div className="col-md-3">
+        <div className="col-3">
           <div className="card p-2">
             <h3 className="text-center">Pending</h3>
             {tasks
@@ -244,7 +243,7 @@ export default function Exam() {
           </div>
         </div>
 
-        <div className="col-md-3">
+        <div className="col-3">
           <div className="card p-2">
             <h3 className="text-center">Inprog</h3>
             {tasks
@@ -349,7 +348,7 @@ export default function Exam() {
           </div>
         </div>
 
-        <div className="col-md-3">
+        <div className="col-3">
           <div className="card  p-2">
             <h3 className="text-center">Complete</h3>
             {tasks
